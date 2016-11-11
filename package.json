@@ -4,8 +4,9 @@
   "description": "learning node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app/index.js"
+    "test": "mocha test",
+    "start": "node app/index.js",
+    "date": "node app/date.js"
   },
   "author": "Sean Gallen",
   "license": "ISC",
