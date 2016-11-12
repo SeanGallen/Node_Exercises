@@ -1,18 +1,6 @@
-const http = require('http');
-const port = 3000;
+const _ = require('lodash');
 
-const requestHandler = (request, response) => {
-  console.log(request.url);
-  response.end('Node.js, Sweet!');
-}
+var answer = _.assign({ 'a': 1}, {'b': 2}, {'c': 3});
 
-const server = http.createServer(requestHandler);
-
-server.listen(port, (err) => {
-  if (err) {
-    return console.log('something bad happened', err)
-  }
-
-  console.log(`server is listening on ${port}`)
-})
+console.log (answer);
 
