@@ -13,3 +13,5 @@ For the File System Database problem, I changed fs.appendToFile to fs.appendFile
 Took a second but I got the PSQL to work.  I highly recommend (http://www.tutorialspoint.com/postgresql/).
 
 You will have to change your username to match your own.  If you don't remember it, try the default.
+
+Added a secret file in the gitignore so I can keep my database config in one module and require it when ever I need it.  This way I won't have to worry about sending anything important to github.  (Ideally, I won't have to be concern.)

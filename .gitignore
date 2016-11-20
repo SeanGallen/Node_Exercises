@@ -12,3 +12,4 @@ node_modules
 jspm_package
 .npm
 .node_repl_history
+secret.js
